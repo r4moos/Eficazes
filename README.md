@@ -37,17 +37,6 @@ npm install
 npm run dev
 ```
 
-## Inicio
-
-
-
-
-## Sobre
-
-
-
-
-```
 
 
 
