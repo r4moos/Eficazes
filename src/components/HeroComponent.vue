@@ -2,7 +2,7 @@
   <div class="heroSection" v-intersect="onIntersect">
     <div class="containerSection">
       <div class="container__1">
-          <div class="imagem__linha">
+        <div class="imagem__linha">
           <img src="../assets/Range.png" alt="" />
           <img src="../assets/Range2.png" alt="" class="imagem__linha2">
         </div>
@@ -50,7 +50,7 @@
         </div>
       </div>
 
-      <div  :class="{ 'animate-complex delay-4': visible }">
+      <div :class="{ 'animate-complex delay-4': visible }">
         <div class="imagem__apresentacao"></div>
         <img src="../assets/heasetpretoazul.png" alt="" class="imagem__fone" />
 
@@ -110,8 +110,6 @@ export default {
 </script>
 
 <style>
-
-
 @keyframes complexEntry {
   0% {
     opacity: 0;
@@ -122,6 +120,7 @@ export default {
     transform: translateY(0) scale(1);
   }
 }
+
 @keyframes slide {
   0% {
     transform: translateX(0);
@@ -136,9 +135,6 @@ export default {
   }
 }
 
-
-
-
 .animate-complex {
   opacity: 0;
   animation: complexEntry 1.8s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
@@ -147,12 +143,15 @@ export default {
 .delay-1 {
   animation-delay: 0.1s;
 }
+
 .delay-2 {
   animation-delay: 0.25s;
 }
+
 .delay-3 {
   animation-delay: 0.35s;
 }
+
 .delay-4 {
   animation-delay: 0.3s;
 }
@@ -163,27 +162,22 @@ export default {
   max-width: 100%;
   margin-left: 15%;
   z-index: 0;
-
 }
 
 .imagem__linha2 {
   width: 45% !important;
   margin-left: 54% !important;
   margin-top: 120px !important;
-
 }
-
-
 
 .containerSection {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 .container__1 {
   margin-left: -150px;
-
 }
 
 .titulo {
@@ -192,8 +186,8 @@ export default {
   width: 100px;
   line-height: 1em;
   margin-top: 70px;
-  font-family: 'inter' sans-serif;
-  letter-spacing: -3px;
+  font-family: 'inter', sans-serif;
+  letter-spacing: -2.5px; /* Ajuste leve no espaçamento das letras */
   text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.23);
 }
 
@@ -207,7 +201,7 @@ export default {
   width: 465px;
   color: #1F2026;
   font-size: 36px;
-  font-family: 'inter' sans-serif;
+  font-family: 'inter', sans-serif;
   font-weight: 600;
   margin-top: 0px;
 }
@@ -215,7 +209,7 @@ export default {
 .seeMoreDetails {
   font-size: 14px;
   font-weight: 600;
-  font-family: 'inter' sans-serif;
+  font-family: 'inter', sans-serif;
 }
 
 .buttonBase {
@@ -230,16 +224,15 @@ export default {
   text-decoration: none;
   color: black;
   cursor: pointer;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
 }
 
 .buttonBase:hover {
-  background-color: #f0f0f0; 
-  border-color: #000000; 
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); 
-  transform: scale(1.05); 
+  background-color: #f0f0f0;
+  border-color: #000000;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
-
 
 .icons2 {
   background-color: black;
@@ -253,7 +246,7 @@ export default {
   margin-top: 90px;
   align-items: center;
   gap: 70px;
-  margin-bottom: 80px
+  margin-bottom: 80px;
 }
 
 .parent {
@@ -265,24 +258,24 @@ export default {
 .avaliacao__texto {
   font-size: 24px;
   font-weight: 600;
-  font-family: 'inter' sans-serif;
+  font-family: 'inter', sans-serif;
   margin-bottom: 12px;
 }
 
 .k {
   font-size: 30px;
   font-weight: 600;
-  font-family: 'inter' sans-serif;
+  font-family: 'inter', sans-serif;
   margin-bottom: 6px;
 }
 
 .boughtInPast {
-  font-family: 'inter' sans-serif;
+  font-family: 'inter', sans-serif;
 }
 
 .ratings {
   color: #a1a1a1;
-  font-family: 'inter' sans-serif;
+  font-family: 'inter', sans-serif;
 }
 
 .imagem__apresentacao {
@@ -320,19 +313,20 @@ export default {
   z-index: 13;
   margin-top: -510px;
   margin-left: 475px;
-  border-radius: 60px; 
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.20);
+  border-radius: 60px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15); /* Ajuste no box-shadow */
 }
+
 .container__2__1:hover {
-  background-color: #f0f0f0; 
-  border-color: #000000; 
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); 
-  transform: scale(1.05); 
+  background-color: #f0f0f0;
+  border-color: #000000;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
 
 .container__2__2 {
   position: relative;
-  display:flex;
+  display: flex;
   align-items: center;
   background-color: white;
   padding: 16px 20px;
@@ -343,17 +337,15 @@ export default {
   margin-top: 260px;
   margin-left: 170px;
   border-radius: 60px;
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15); /* Ajuste no box-shadow */
 }
 
 .container__2__2:hover {
-  background-color: #f0f0f0; 
-  border-color: #000000; 
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); 
-  transform: scale(1.05); 
+  background-color: #f0f0f0;
+  border-color: #000000;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
-
-
 
 .icone__bolinha {
   padding: 0.6em;
@@ -361,17 +353,16 @@ export default {
   border-radius: 50%;
 }
 
-.inf h3{
+.inf h3 {
   font-size: 18px;
   color: #a1a1a1;
-  font-family: 'inter' sans-serif;
+  font-family: 'inter', sans-serif;
 }
 
-.inf h4{
+.inf h4 {
   font-size: 20px;
   font-weight: 600;
-  font-family: 'inter' sans-serif;
+  font-family: 'inter', sans-serif;
   margin-top: -10px;
 }
-
 </style>
