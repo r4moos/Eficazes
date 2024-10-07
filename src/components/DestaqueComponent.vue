@@ -1,9 +1,11 @@
 <template>
   <div class="container">
     <div class="image-container">
+      
       <img src="../assets/fonePreto1.png" alt="Headset A50" class="default-image">
       <img src="../assets/fonePreto2.png" alt="Headset HyperX" class="hover-image">
     </div>
+    
     <div class="image-container">
       <img src="../assets/foneBranco1.png" alt="Headset HyperX" class="default-image">
       <img src="../assets/foneBranco2.png" alt="Headset A50" class="hover-image">
