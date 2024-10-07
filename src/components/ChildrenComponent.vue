@@ -6,6 +6,7 @@
         </div>
         <div class="hp-info">
             <h1 class="title">JBL Children's Bluetooth Headphones</h1>
+            <p>
             <div class="reviews">
                 <img class="stars" src="../assets/estrelas.png">
                 <p class="qtd-reviews">18,921 (reviews)</p> 
