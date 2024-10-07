@@ -1,6 +1,7 @@
 <template>
     <div class="testimonials-container">
       <h2>TESTIMONIALS</h2>
+       <hr> 
       <p style="color: #aaa;">Voices of Satisfaction: Discover What Our Clients Have to Say</p>
       
       <transition
